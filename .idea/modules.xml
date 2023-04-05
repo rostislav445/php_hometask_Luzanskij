@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/php_hometask_Luzanskij.iml" filepath="$PROJECT_DIR$/.idea/php_hometask_Luzanskij.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PHPTestProject.iml" filepath="$PROJECT_DIR$/.idea/PHPTestProject.iml" />
     </modules>
   </component>
 </project>
