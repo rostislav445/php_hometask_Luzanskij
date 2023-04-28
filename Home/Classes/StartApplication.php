@@ -9,6 +9,15 @@ use SmartyException;
 
 class StartApplication
 {
+    private static $instance = null;
+    private function singltone() {}
+    public static function getInstance()
+    {
+        if(!self::$instance) {
+            self::$instance = new StartApplication();
+        }
+        return self::$instance;
+    }
     use DebugTrait;
     private string $URI;
     // об'єкт класу Router буде записаний в цю змінну
